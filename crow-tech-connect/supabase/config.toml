@@ -1,0 +1,13 @@
+project_id = "majpyfbfxjbrdpznpdur"
+
+[functions.process-mobile-payment]
+verify_jwt = true
+
+[functions.approve-payment]
+verify_jwt = false
+
+[functions.notify-provider-signup]
+verify_jwt = false
+
+[functions.crow-chat]
+verify_jwt = false
